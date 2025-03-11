@@ -1,21 +1,31 @@
-# Ignorar archivos de entorno
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
 .env
 
-# Ignorar la carpeta de módulos de Node.js
-node_modules/
-
-# Ignorar logs y caché
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Logs
+logs
 *.log
+npm-debug.log*
 
-# Ignorar archivos del sistema (Mac y Windows)
+# Runtime data
+pids
+*.pid
+*.seed
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-
-# Ignorar archivos de dependencia de Render
-.cache/
-dist/
-packages-lock.json
-package.json
